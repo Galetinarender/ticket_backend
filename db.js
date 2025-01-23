@@ -3,6 +3,7 @@ const mongoURI = "mongodb+srv://narendrabhupathi1296:narendra%40123@cluster0.oyt
 
 const connectToMongo = ()=>{
     mongoose.connect(mongoURI)
+    console.log("mongoose is connecyted")
 }
 
 module.exports = connectToMongo;
